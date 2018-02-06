@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_one"
+    android:background="@drawable/kotlin"
+    tools:context=".ui.fragments.FragmentVIewOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:id="@+id/tv_fragment_body_one"
+        android:textSize="50dp"
+        android:textColor="@color/cardview_dark_background"
+        android:gravity="center"
+        android:text="@string/fragment_one" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_fragment_body_one"
+       android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/cardview_dark_background"
+        android:text="@string/tab_anywhere" />
+
+</RelativeLayout>
